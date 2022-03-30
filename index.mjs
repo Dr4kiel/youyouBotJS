@@ -76,6 +76,10 @@ client.on("messageCreate", message =>{
         message.channel.send('https://media.discordapp.net/attachments/948212540545056788/954771537733501028/0b78a082-54d1-4a08-9c9b-2bb3e4cdd4a0.gif')
     }
 
+    else if(message.content === prefix + "vegan"){
+        message.channel.send('https://media.discordapp.net/attachments/885565267751600173/956280663445737592/youennvegan.gif');
+    }
+
 });
 
 async function getBlagues(message){
